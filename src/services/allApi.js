@@ -1,5 +1,5 @@
 import { commonApi } from "./commomApi"
-import { serverUrl } from '../services/serverUrl';
+import { serverUrl } from '../services/serverurl';
 
 
 
