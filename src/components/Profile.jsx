@@ -1,8 +1,7 @@
-
 import { faAngleDown, faAngleUp, faUpLong } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useEffect, useState } from 'react'
-import { serverUrl } from '../services/serverUrl'
+import { serverUrl } from '../services/serverurl'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { updateUserProfileApi } from '../services/allApi';

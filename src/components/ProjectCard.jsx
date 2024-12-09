@@ -1,7 +1,5 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
-
-// import projectPhoto from '../assets/e-cart.png'
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 // import prjPhoto from '../assets/e-cart.png'
@@ -9,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { Link } from 'react-router-dom';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
-import { serverUrl } from '../services/serverUrl';
+import { serverUrl } from '../services/serverurl';
 
 function ProjectCard({project}) {
   const [show, setShow] = useState(false);

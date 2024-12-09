@@ -1,28 +1,3 @@
-// import { faStackOverflow } from '@fortawesome/free-brands-svg-icons/faStackOverflow'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import React from 'react'
-// import {Link} from 'react-router-dom'
-// import Navbar from 'react-bootstrap/Navbar';
-
-// function Header() {
-//   return (
-//     <div>
-//       <Navbar  className='bg-success D-flex align-items-center'>
-        
-//             <Link to={'/'} style={{textDecoration:'none'}}>
-//               <NavBar.Brand className='text-light'>
-//                 <span className='fs-3 ms-5'><FontAwesomeIcon icon ={faStackOverflow}/>Project Fair</span>
-
-//               </NavBar.Brand>
-//             </Link>
-     
-
-//       </Navbar>
-//     </div>
-//   )
-// }
-
-// export default Header
 import { faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useContext, useEffect, useState } from 'react';
